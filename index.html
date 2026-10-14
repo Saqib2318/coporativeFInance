@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cooperative Finance Fundamentals — Learn Credit Unions, Principles & Tools</title>
+  <meta name="description" content="Master cooperative finance fundamentals: the 7 cooperative principles, capital structure, governance, lending, and free tools for credit unions and financial cooperatives. Free, structured, and always online." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">CF</div>
+        Cooperative Finance
+      </a>
+
+      <button class="mobile-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+
+        <li class="dropdown">
+          <a href="#learn">Learn ▾</a>
+          <div class="dropdown-menu">
+            <div class="cat-label">Fundamentals</div>
+            <a href="learn/principles.html">7 Cooperative Principles</a>
+            <a href="learn/what-is.html">What is Cooperative Finance?</a>
+            <a href="learn/ownership.html">Ownership & Governance</a>
+            <div class="cat-label">Capital & Structure</div>
+            <a href="learn/capital.html">Capital Structure & Equity</a>
+            <a href="learn/surplus.html">Surplus & Patronage</a>
+            <a href="learn/sources.html">Sources of Finance</a>
+            <div class="cat-label">Operations</div>
+            <a href="learn/lending.html">Lending & Credit</a>
+            <a href="learn/vs-banks.html">Credit Unions vs Banks</a>
+            <a href="learn/community.html">Community Impact</a>
+          </div>
+        </li>
+
+        <li class="dropdown">
+          <a href="#tools">Tools ▾</a>
+          <div class="dropdown-menu">
+            <a href="tools/patronage.html">Patronage Dividend Calculator</a>
+            <a href="tools/share-capital.html">Share Capital Planner</a>
+            <a href="tools/loan-comparison.html">Loan Rate Comparison</a>
+            <a href="tools/savings.html">Member Savings Growth</a>
+          </div>
+        </li>
+
+        <li><a href="#resources">Resources</a></li>
+        <li><a href="#about">About</a></li>
+        <li style="margin-left: 0.5rem;"><a href="learn/principles.html" class="btn btn-primary" style="padding: 0.45rem 1rem;">Start Learning</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-container">
+      <div class="hero-badge">Trusted by learners & cooperative leaders worldwide</div>
+      <h1>Cooperative Finance<br><span>Fundamentals</span></h1>
+      <p class="hero-sub">
+        Master the principles, capital structures, governance, and tools that power credit unions and financial cooperatives — from the ground up. Free, structured, and always online.
+      </p>
+      <div class="hero-actions">
+        <a href="learn/principles.html" class="btn btn-accent">Explore the 7 Principles →</a>
+        <a href="#resources" class="btn btn-outline" style="border-color: rgba(255,255,255,0.4); color: white;">Browse Resources</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-value">7+</div>
+          <div class="stat-label">Core Principles</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">12+</div>
+          <div class="stat-label">Topic Guides</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">100%</div>
+          <div class="stat-label">Free Forever</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">4</div>
+          <div class="stat-label">Interactive Tools</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOST-USED RESOURCES -->
+  <section class="section" id="resources">
+    <div class="container">
+      <div class="section-header">
+        <h2>Most-Used Resources</h2>
+        <p>Principles, tools, and guides organized so you reach what you need in one click — just like a modern learning hub.</p>
+      </div>
+
+      <div class="resource-grid">
+        <div class="resource-card">
+          <div class="resource-icon icon-teal">①</div>
+          <h3>Cooperative Principles</h3>
+          <p>The foundation of every credit union and financial cooperative worldwide.</p>
+          <ul>
+            <li><a href="learn/principles.html">The 7 (or 8) Principles →</a></li>
+            <li><a href="learn/what-is.html">What is Cooperative Finance? →</a></li>
+            <li><a href="learn/ownership.html">Democratic Member Control →</a></li>
+            <li><a href="learn/community.html">Concern for Community →</a></li>
+          </ul>
+          <a href="learn/principles.html" class="card-link">View all principles →</a>
+        </div>
+
+        <div class="resource-card">
+          <div class="resource-icon icon-blue">$</div>
+          <h3>Capital & Structure</h3>
+          <p>How cooperatives raise, manage, and distribute capital differently from banks.</p>
+          <ul>
+            <li><a href="learn/capital.html">Capital Structure & Equity →</a></li>
+            <li><a href="learn/surplus.html">Patronage Refunds Explained →</a></li>
+            <li><a href="learn/sources.html">Sources of Finance →</a></li>
+            <li><a href="learn/lending.html">Lending & Credit Practices →</a></li>
+          </ul>
+          <a href="learn/capital.html" class="card-link">Explore capital topics →</a>
+        </div>
+
+        <div class="resource-card">
+          <div class="resource-icon icon-amber">⚙</div>
+          <h3>Interactive Tools</h3>
+          <p>Calculators and planners you can use instantly in the browser — no install needed.</p>
+          <ul>
+            <li><a href="tools/patronage.html">Patronage Dividend Calculator →</a></li>
+            <li><a href="tools/share-capital.html">Share Capital Planner →</a></li>
+            <li><a href="tools/loan-comparison.html">CU vs Bank Loan Comparison →</a></li>
+            <li><a href="tools/savings.html">Member Savings Growth →</a></li>
+          </ul>
+          <a href="#tools" class="card-link">View all tools →</a>
+        </div>
+
+        <div class="resource-card">
+          <div class="resource-icon icon-purple">↔</div>
+          <h3>Comparisons & Impact</h3>
+          <p>Understand the real differences and why cooperatives matter for communities.</p>
+          <ul>
+            <li><a href="learn/vs-banks.html">Credit Unions vs Commercial Banks →</a></li>
+            <li><a href="learn/ownership.html">One Member, One Vote →</a></li>
+            <li><a href="learn/community.html">Community Development Role →</a></li>
+            <li><a href="learn/what-is.html">History & Global Reach →</a></li>
+          </ul>
+          <a href="learn/vs-banks.html" class="card-link">See the differences →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOOKING FOR A SPECIFIC CONCEPT -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2>Looking for a specific concept?</h2>
+        <p>Jump straight to the topic you need — from basic principles to advanced capital strategies.</p>
+      </div>
+      <div class="topic-pills">
+        <a href="learn/principles.html" class="pill">Voluntary & Open Membership</a>
+        <a href="learn/ownership.html" class="pill">Democratic Member Control</a>
+        <a href="learn/capital.html" class="pill">Member Economic Participation</a>
+        <a href="learn/surplus.html" class="pill">Patronage Dividends</a>
+        <a href="learn/sources.html" class="pill">Equity vs Debt Capital</a>
+        <a href="learn/lending.html" class="pill">Common Bond & Lending</a>
+        <a href="learn/vs-banks.html" class="pill">Not-for-Profit Structure</a>
+        <a href="learn/community.html" class="pill">Concern for Community</a>
+        <a href="tools/patronage.html" class="pill">Calculate Patronage</a>
+        <a href="learn/what-is.html" class="pill">Credit Union Model</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CORE DEFINITIONS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Three Concepts Every Cooperative Finance Learner Must Know</h2>
+        <p>Precise, plain-language definitions of the ideas that underpin all cooperative finance.</p>
+      </div>
+
+      <div class="concepts-grid">
+        <div class="concept-card">
+          <h3>① Member-Owned vs Shareholder-Owned</h3>
+          <p><strong>Credit unions and financial cooperatives</strong> are owned by their members — the people who use the services. Commercial banks are owned by external shareholders who seek maximum profit. In a cooperative, surplus is returned to members through better rates, lower fees, and patronage refunds, not paid out to distant investors.</p>
+          <a href="learn/vs-banks.html" class="card-link">Explore the differences →</a>
+        </div>
+
+        <div class="concept-card">
+          <h3>② One Member, One Vote</h3>
+          <p><strong>Democratic member control</strong> means every member has exactly one vote in elections and major decisions, regardless of how much money they have on deposit or how many shares they hold. This is the opposite of corporate voting where more shares = more power.</p>
+          <a href="learn/ownership.html" class="card-link">Learn about governance →</a>
+        </div>
+
+        <div class="concept-card">
+          <h3>③ Patronage-Based Returns</h3>
+          <p><strong>Member economic participation</strong> links benefits to usage. When the cooperative generates a surplus, a portion is often returned as patronage refunds proportional to the business each member did with the cooperative — not proportional to capital invested.</p>
+          <a href="learn/surplus.html" class="card-link">Understand patronage →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRINCIPLES PREVIEW -->
+  <section class="section section-alt" id="learn">
+    <div class="container">
+      <div class="section-header">
+        <h2>The Cooperative Principles at a Glance</h2>
+        <p>These principles, rooted in the Rochdale Pioneers of 1844 and formalized by the International Cooperative Alliance, guide every true cooperative.</p>
+      </div>
+
+      <div class="principles-grid">
+        <div class="principle-item">
+          <div class="principle-num">1</div>
+          <div>
+            <h4>Voluntary & Open Membership</h4>
+            <p>Open to all able to use services and willing to accept responsibilities, without discrimination.</p>
+          </div>
+        </div>
+        <div class="principle-item">
+          <div class="principle-num">2</div>
+          <div>
+            <h4>Democratic Member Control</h4>
+            <p>One member, one vote. Members set policies and elect representatives.</p>
+          </div>
+        </div>
+        <div class="principle-item">
+          <div class="principle-num">3</div>
+          <div>
+            <h4>Member Economic Participation</h4>
+            <p>Members contribute equitably and control the capital. Benefits linked to participation.</p>
+          </div>
+        </div>
+        <div class="principle-item">
+          <div class="principle-num">4</div>
+          <div>
+            <h4>Autonomy & Independence</h4>
+            <p>Self-help organizations controlled by members. External deals never compromise democracy.</p>
+          </div>
+        </div>
+        <div class="principle-item">
+          <div class="principle-num">5</div>
+          <div>
+            <h4>Education, Training & Information</h4>
+            <p>Provide education so members, staff, and the public understand the cooperative advantage.</p>
+          </div>
+        </div>
+        <div class="principle-item">
+          <div class="principle-num">6</div>
+          <div>
+            <h4>Cooperation Among Cooperatives</h4>
+            <p>Work together through local, national, and international structures for greater impact.</p>
+          </div>
+        </div>
+        <div class="principle-item">
+          <div class="principle-num">7</div>
+          <div>
+            <h4>Concern for Community</h4>
+            <p>Work for the sustainable development of communities through policies approved by members.</p>
+          </div>
+        </div>
+        <div class="principle-item" style="border-style: dashed;">
+          <div class="principle-num" style="background: #64748b;">8</div>
+          <div>
+            <h4>Diversity, Equity & Inclusion</h4>
+            <p>Emerging 8th principle adopted by many credit unions to build more inclusive communities.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 2rem;">
+        <a href="learn/principles.html" class="btn btn-primary">Read the full principles guide →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOOLS SECTION -->
+  <section class="section" id="tools">
+    <div class="container">
+      <div class="section-header">
+        <h2>Interactive Tools & Calculators</h2>
+        <p>Practical tools to apply cooperative finance concepts immediately.</p>
+      </div>
+
+      <div class="resource-grid">
+        <div class="resource-card">
+          <div class="resource-icon icon-amber">📊</div>
+          <h3>Patronage Dividend Calculator</h3>
+          <p>Estimate how surplus is distributed based on member transactions and participation rates.</p>
+          <a href="tools/patronage.html" class="btn btn-primary" style="margin-top: auto;">Open Calculator</a>
+        </div>
+        <div class="resource-card">
+          <div class="resource-icon icon-teal">🏦</div>
+          <h3>Share Capital Planner</h3>
+          <p>Model member share purchases, reserves, and equity growth over time.</p>
+          <a href="tools/share-capital.html" class="btn btn-primary" style="margin-top: auto;">Open Planner</a>
+        </div>
+        <div class="resource-card">
+          <div class="resource-icon icon-blue">↔</div>
+          <h3>Loan Rate Comparison</h3>
+          <p>Compare the real cost of borrowing from a credit union versus a commercial bank.</p>
+          <a href="tools/loan-comparison.html" class="btn btn-primary" style="margin-top: auto;">Compare Rates</a>
+        </div>
+        <div class="resource-card">
+          <div class="resource-icon icon-purple">📈</div>
+          <h3>Member Savings Growth</h3>
+          <p>See how competitive dividend rates and lower fees compound member wealth.</p>
+          <a href="tools/savings.html" class="btn btn-primary" style="margin-top: auto;">Calculate Growth</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT IS COOPERATIVE FINANCE -->
+  <section class="section section-alt" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2>What Are Cooperative Finance Fundamentals?</h2>
+        <p>The essential ideas used to build, govern, and sustain member-owned financial institutions.</p>
+      </div>
+
+      <div style="max-width: 800px; margin: 0 auto;">
+        <p style="font-size: 1.05rem; color: #334155; margin-bottom: 1.5rem;">
+          <strong>Cooperative finance fundamentals</strong> are the foundational concepts that distinguish credit unions, cooperative banks, and other financial cooperatives from investor-owned banks. They cover ownership structure, democratic governance, capital formation, surplus distribution, and the social purpose that sits at the heart of the model.
+        </p>
+
+        <div class="key-box">
+          <h4>Core Idea</h4>
+          <p>In a cooperative, the users of the service are also the owners. Decisions are made democratically, capital is primarily member-sourced, and benefits flow back to members in proportion to their participation — not in proportion to capital invested.</p>
+        </div>
+
+        <h3 style="margin-top: 2rem; margin-bottom: 0.75rem;">Key Building Blocks</h3>
+        <ul style="margin-left: 1.25rem; color: #334155;">
+          <li><strong>Cooperative Principles</strong> — the ethical and operational foundation</li>
+          <li><strong>Ownership & Control</strong> — member equity, one-member-one-vote, elected boards</li>
+          <li><strong>Capital Formation</strong> — member shares, retained earnings, reserves, limited external capital</li>
+          <li><strong>Surplus Allocation</strong> — reserves, patronage refunds, community investment</li>
+          <li><strong>Risk & Lending</strong> — common bond, prudent lending, focus on member needs</li>
+          <li><strong>Social Mission</strong> — financial inclusion, community development, education</li>
+        </ul>
+
+        <div style="text-align: center; margin-top: 2.5rem;">
+          <a href="learn/what-is.html" class="btn btn-primary">Start with the full introduction →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <h4>Learn</h4>
+        <ul>
+          <li><a href="learn/principles.html">Cooperative Principles</a></li>
+          <li><a href="learn/what-is.html">What is Cooperative Finance</a></li>
+          <li><a href="learn/capital.html">Capital Structure</a></li>
+          <li><a href="learn/ownership.html">Governance</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Tools</h4>
+        <ul>
+          <li><a href="tools/patronage.html">Patronage Calculator</a></li>
+          <li><a href="tools/share-capital.html">Share Capital Planner</a></li>
+          <li><a href="tools/loan-comparison.html">Loan Comparison</a></li>
+          <li><a href="tools/savings.html">Savings Growth</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Key Topics</h4>
+        <ul>
+          <li><a href="learn/vs-banks.html">CU vs Banks</a></li>
+          <li><a href="learn/surplus.html">Patronage Refunds</a></li>
+          <li><a href="learn/lending.html">Lending Practices</a></li>
+          <li><a href="learn/community.html">Community Impact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>About</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About this site</a></li>
+          <li><a href="https://github.com/Saqib2318/coporativeFInance" target="_blank">GitHub Repo</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Cooperative Finance Fundamentals. Built for learners & practitioners.</div>
+      <div>Free forever · Open educational resource</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
